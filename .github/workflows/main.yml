@@ -45,7 +45,7 @@ jobs:
         with:
           images: geraldo72/conversao-temperatura:${{github.run_number}}
           manifests: |
-            deploy.yml
+            src/deploy.yml
       
     
     
